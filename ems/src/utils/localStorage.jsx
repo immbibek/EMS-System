@@ -179,8 +179,8 @@ const employees=[
   }
 
   export const  getLocalStorage=()=>{
-   const data= localStorage.getItem('employees')
-   JSON.parse(data) // data in NOrmal form in array foramt
-   
+   const employees=JSON.parse( localStorage.getItem('employees'))
+  
+
     
   }
