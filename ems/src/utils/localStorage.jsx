@@ -180,6 +180,10 @@ const employees=[
 
   export const  getLocalStorage=()=>{
    const employees=JSON.parse( localStorage.getItem('employees'))
+
+   const admin=JSON.parse(localStorage.getItem('admin'))
+
+   return{employees,admin}
   
 
     
